@@ -1,7 +1,7 @@
 const TelegramBot = require("node-telegram-bot-api");
 
 const token = process.env.BOT_TOKEN;
-const bot = new TelegramBot(token, { polling: false });
+const bot = new TelegramBot(token, { polling: true });
 const webAppUrl = 'https://astonishing-cat-d65e6c.netlify.app/';
 
 bot.on('message', async (msg) => {
