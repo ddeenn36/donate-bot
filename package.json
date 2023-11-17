@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "babel-node index --preset=env"
+    "start": "node index.js"
   },
   "dependencies": {
     "babel-cli": "^6.26.0",
