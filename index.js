@@ -7,7 +7,7 @@ const options = {
 const bot = new TelegramBot(token, options);
 // const webAppUrl = 'https://astonishing-cat-d65e6c.netlify.app/';
 
-bot.onText(/\start/, (msg) => {
+bot.onText(/\/start/i, (msg) => {
 	bot.sendMessage(msg.chat.id, 'Hi');
 });
 
